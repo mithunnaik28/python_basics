@@ -1,2 +1,2 @@
 # python_programs
-python programs simple and oops
+python Dsa, oops and simple programs
