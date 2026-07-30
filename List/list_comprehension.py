@@ -4,7 +4,10 @@ nl=[i for i in range(1,18)]
 
 n=["mithun","annappa","naik"]
 ml=[i[0] for i in n]
+ucl=[i.upper() for i in n]
 
-print(dl,nl,ml)
+print(dl,nl)
+print(ml,ucl)
 
-#[178, 68, 6, 4, 6, 1090, 50] [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] ['m','a','n']
+#[178, 68, 6, 4, 6, 1090, 50] [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] 
+#['m','a','n'] ['MITHUN','ANNAPPA','NAIK']
